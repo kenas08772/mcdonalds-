@@ -1,0 +1,206 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   list-style: none;
+
+
+}
+
+.grid-container {
+   display: grid;
+   grid-template-columns: 118px 1fr;
+   grid-auto-rows: 50px;
+   grid-template-areas: "grid1 grid2"
+      "grid1 grid3";
+   grid-row-gap: 30px;
+   width: 80%;
+   margin: 30px 50px 50px 50px;
+}
+
+.grid-box {
+   display: flex;
+   color: #151414;
+   align-items: center;
+
+
+}
+
+.grid1 {
+   grid-area: grid1;
+   margin: 0px 130px;
+
+}
+
+.grid2 {
+   grid-area: grid2;
+
+}
+
+.upper-nav-left li {
+   font-size: 18px;
+   padding: 10px;
+
+}
+
+.upper-nav-right li {
+   font-size: 18px;
+
+}
+
+.grid-box-grid3 li {
+   font-size: 17px;
+
+}
+
+.upper-nav-right {
+   display: flex;
+   gap: 45px;
+   padding: 10px;
+   color: #151414;
+
+}
+
+.upper-nav-right button {
+   display: flex;
+   background-color: #ffbc0d;
+   font-size: 15px;
+   line-height: 24px;
+  
+   width: 80px;
+
+}
+
+.grid3 {
+   grid-area: grid3;
+
+}
+
+.upper-nav {
+   display: flex;
+   justify-content: space-between;
+   column-gap: 350px;
+
+
+}
+
+.upper-nav-left {
+   display: flex;
+   margin-left: 130px;
+
+}
+
+
+.grid-box-grid3 {
+   display: flex;
+   margin-left: 135px;
+   gap: 45px;
+
+}
+
+.section-1 {
+   display: grid;
+   grid-template-columns: 1.5fr 1fr;
+   width: 80%;
+   grid-gap: 20px;
+
+}
+
+.img {
+   width: 748px;
+   height: 333px;
+   margin-left: 200px;
+}
+
+h1 {
+   margin: 0 0 18px 0;
+}
+
+p {
+   height: 130px;
+   width: 377px;
+}
+
+.btn {
+   line-height: 24px;
+   color: #292929;
+   background-color: #FFFFFF;
+   margin: 130px 18px;
+   width: 200px;
+   height: 50px;
+   background-color:#ffbc0d;
+}
+
+.last-section {
+   display: grid;
+   width: 1400px;
+   grid-template-columns: repeat(4, 1fr);
+
+}
+
+.col-1 {
+   padding-left: 190px;
+
+}
+
+.col-1 li {
+   font-size: 16px;
+   line-height: 22px;
+}
+
+h2 {
+   margin-bottom: 30px;
+}
+
+.sub-footer {
+   display: flex;
+   padding-right: 20px;
+
+}
+
+.img-1 {
+   display: flex;
+   margin-left: 150px;
+   height: 40px;
+   gap: 20px;
+   margin-top: 40px;
+}
+
+.img-2 {
+   margin-left: 550px;
+   margin-top: 40px;
+
+}
+
+.last-footer {
+   display: flex;
+   margin-top: 130px;
+   margin-left: 130px;
+   height: 70px;
+
+}
+
+.last-footer li {
+   margin: 18px;
+   font-size: 17px;
+
+}
+
+.last-footer .img-3 {
+   width: 30px;
+   margin-top: 18px;
+   margin-left: 150px;
+
+}
+
+.last-footer .reserved {
+   margin: 18px;
+
+
+}
+
+.last-footer-1 li {
+   display: flex;
+   margin-left: 145px;
+   font-size: 17px;
+}
